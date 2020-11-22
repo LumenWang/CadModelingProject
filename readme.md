@@ -28,7 +28,8 @@ CadModelingProject  // 工程目录
     └── mainwindow.ui       // ui文件
 ```
 #### 2.核心数据结构
-#####实体模型
+#####(1)实体模型
+
 ```
 class Solid:public Singleton<Solid>{
 public:
